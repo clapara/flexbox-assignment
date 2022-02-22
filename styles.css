@@ -22,6 +22,8 @@ body,
 html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(189, 252, 231);
 }
 /** RESPONSIVE IMAGES */
 figure,
@@ -99,6 +101,14 @@ figcaption {
     left    : 0;
     border  : 0;
 }
+
+.feature {
+    border-color: blueviolet;
+    border-width: 3px;
+    border-style: solid;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
@@ -121,6 +131,9 @@ figcaption {
     .collage > div {
         flex-basis: 30%;
     }
+
+   
+
 }
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
